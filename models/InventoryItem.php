@@ -76,33 +76,3 @@ class InventoryItem {
     }
 
 }
-
-$one = new InventoryItem(8235, "HTC X", 10, 500, 99, 11);
-$one->display();
-
-$two = new InventoryItem(5286, "Sony Vaio", 20, 600, 99, 12);
-$two->display();
-
-$three = new InventoryItem(1135, "HP", 30, 300, 99, 13);
-$three->display();
-
-$four = new InventoryItem(6359, "Levi Shirt XL", 5, 150, 88, 21);
-$four->display();
-
-$five = new InventoryItem(2315, "Woodland Shoes", 6, 100, 88, 22);
-$five->display();
-
-$six = new InventoryItem(0986, "Arrow XL", 4, 98, 77, 31);
-$six->display();
-
-$seven = new InventoryItem(1289, "Slipper", 6, 67, 77, 32);
-$seven->display();
-
-$eight = new InventoryItem(5490, "Kookaburra Ball", 25, 15, 66, 41);
-$eight->display();
-
-$nine = new InventoryItem(6243, "Yonex Nanospeed", 13, 143, 66, 42);
-$nine->display();
-
-$ten = new InventoryItem(3410, "Nike Football", 22, 45, 66, 43);
-$ten->display();
